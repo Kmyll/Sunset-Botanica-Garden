@@ -23,6 +23,7 @@ class Sunset_botanical_gardenView extends WatchUi.WatchFace {
 
     function onUpdate(dc as Dc) as Void {
         dc.setColor(Graphics.COLOR_BLACK, Graphics.COLOR_BLACK);
+
         dc.clear();
 
         if (_background != null) {
@@ -35,47 +36,26 @@ class Sunset_botanical_gardenView extends WatchUi.WatchFace {
         drawHeartRate(dc);
     }
 
-  private function drawTime(dc as Dc) as Void {
-    var clock = System.getClockTime();
-    var settings = System.getDeviceSettings();
-    var hour = clock.hour;
-    var hourText;
+    private function drawTime(dc as Dc) as Void {
+        var clock = System.getClockTime();
+        var settings = System.getDeviceSettings();
+        var hour = clock.hour;
+        var hourText = "";
 
-    if (settings.is24Hour) {
-        hourText = hour.format("%02d");
-    } else {
-        hour = hour % 12;
+        if (settings.is24Hour) {
+            hourText = hour.format("%02d");
+        } else {
+            hour = hour % 12;
 
-        if (hour == 0) {
-            hour = 12;
+            if (hour == 0) {
+                hour = 12;
+            }
+
+            hourText = hour.format("%d");
         }
 
-        hourText = hour.format("%d");
-    }
-
-    var timeText = Lang.format(
-        "$1$:$2$",
-        [
-            hourText,
-            clock.min.format("%02d")
-        ]
-    );
-
-    dc.setColor(0xFFF4E5, Graphics.COLOR_TRANSPARENT);
-
-    dc.drawText(
-        dc.getWidth() / 2,
-        112,
-        Graphics.FONT_NUMBER_MILD,
-        timeText,
-        Graphics.TEXT_JUSTIFY_CENTER |
-        Graphics.TEXT_JUSTIFY_VCENTER
-    );
-}
-        var clock = System.getClockTime();
-
         var timeText = Lang.format("$1$:$2$", [
-            clock.hour.format("%02d"),
+            hourText,
             clock.min.format("%02d"),
         ]);
 
@@ -83,7 +63,7 @@ class Sunset_botanical_gardenView extends WatchUi.WatchFace {
 
         dc.drawText(
             dc.getWidth() / 2,
-            120,
+            112,
             Graphics.FONT_NUMBER_MILD,
             timeText,
             Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER
@@ -132,6 +112,7 @@ class Sunset_botanical_gardenView extends WatchUi.WatchFace {
     private function drawHeartRate(dc as Dc) as Void {
         var heartRateText = "--";
         var iterator = ActivityMonitor.getHeartRateHistory(1, true);
+
         var sample = iterator.next();
 
         if (

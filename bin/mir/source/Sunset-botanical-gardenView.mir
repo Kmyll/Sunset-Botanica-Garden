@@ -1,0 +1,623 @@
+[ @file = "/Users/camilledesoubrie/Documents/projects/Sunset-botanical-garden/Sunset-botanical-garden/source/Sunset-botanical-gardenView.mc"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [ActivityMonitor,1,14,29]; ]
+import Toybox.ActivityMonitor;
+[ @file = "/Users/camilledesoubrie/Documents/projects/Sunset-botanical-garden/Sunset-botanical-garden/source/Sunset-botanical-gardenView.mc"; @line = 2; @symbol_importdef<0> = [Toybox,2,7,13]; @symbol_importdef<1> = [Graphics,2,14,22]; ]
+import Toybox.Graphics;
+[ @file = "/Users/camilledesoubrie/Documents/projects/Sunset-botanical-garden/Sunset-botanical-garden/source/Sunset-botanical-gardenView.mc"; @line = 3; @symbol_importdef<0> = [Toybox,3,7,13]; @symbol_importdef<1> = [Lang,3,14,18]; ]
+import Toybox.Lang;
+[ @file = "/Users/camilledesoubrie/Documents/projects/Sunset-botanical-garden/Sunset-botanical-garden/source/Sunset-botanical-gardenView.mc"; @line = 4; @symbol_importdef<0> = [Toybox,4,7,13]; @symbol_importdef<1> = [System,4,14,20]; ]
+import Toybox.System;
+[ @file = "/Users/camilledesoubrie/Documents/projects/Sunset-botanical-garden/Sunset-botanical-garden/source/Sunset-botanical-gardenView.mc"; @line = 5; @symbol_importdef<0> = [Toybox,5,7,13]; @symbol_importdef<1> = [Time,5,14,18]; ]
+import Toybox.Time;
+[ @file = "/Users/camilledesoubrie/Documents/projects/Sunset-botanical-garden/Sunset-botanical-garden/source/Sunset-botanical-gardenView.mc"; @line = 6; @symbol_importdef<0> = [Toybox,6,7,13]; @symbol_importdef<1> = [Time,6,14,18]; @symbol_importdef<2> = [Gregorian,6,19,28]; ]
+import Toybox.Time.Gregorian;
+[ @file = "/Users/camilledesoubrie/Documents/projects/Sunset-botanical-garden/Sunset-botanical-garden/source/Sunset-botanical-gardenView.mc"; @line = 7; @symbol_importdef<0> = [Toybox,7,7,13]; @symbol_importdef<1> = [WatchUi,7,14,21]; ]
+import Toybox.WatchUi;
+[ @file = "/Users/camilledesoubrie/Documents/projects/Sunset-botanical-garden/Sunset-botanical-garden/source/Sunset-botanical-gardenView.mc"; @line = 9; @symbol_classdef = [Sunset_botanical_gardenView,9,6,33]; @symbol_extends<0> = [WatchUi,9,42,49]; @symbol_extends<1> = [WatchFace,9,50,59]; ]
+class Sunset_botanical_gardenView extends WatchUi.WatchFace {
+    [ @file = "/Users/camilledesoubrie/Documents/projects/Sunset-botanical-garden/Sunset-botanical-garden/source/Sunset-botanical-gardenView.mc"; @line = 9; ]
+    <init> {
+    }
+    [ @file = "/Users/camilledesoubrie/Documents/projects/Sunset-botanical-garden/Sunset-botanical-garden/source/Sunset-botanical-gardenView.mc"; @line = 9; ]
+    static
+    <init> {
+    }
+    [ @file = "/Users/camilledesoubrie/Documents/projects/Sunset-botanical-garden/Sunset-botanical-garden/source/Sunset-botanical-gardenView.mc"; @line = 10; @position = 16; @symbol_vardef = [_background,10,16,27]; @symbol_type<0> = [WatchUi,10,31,38]; @symbol_type<1> = [BitmapResource,10,39,53]; ]
+    private
+    var _background as WatchUi.BitmapResource or Null = null;
+    [ @file = "/Users/camilledesoubrie/Documents/projects/Sunset-botanical-garden/Sunset-botanical-garden/source/Sunset-botanical-gardenView.mc"; @line = 12; @symbol_functiondef = [initialize,12,13,23]; ]
+    function initialize() as Void {
+_Users_camilledesoubrie_Documents_projects_Sunset_botanical_garden_Sunset_botanical_garden_source_Sunset_botanical_gardenView_mc_12_26_14_4_start:
+[ "/Users/camilledesoubrie/Documents/projects/Sunset-botanical-garden/Sunset-botanical-garden/source/Sunset-botanical-gardenView.mc" 13 8 ]
+        symbol [ WatchFace %tmp.2 13 8 17 ];
+        %tmp.2 = getv ? :WatchFace;
+        symbol [ initialize %tmp.3 13 18 28 ];
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+_Users_camilledesoubrie_Documents_projects_Sunset_botanical_garden_Sunset_botanical_garden_source_Sunset_botanical_gardenView_mc_12_26_14_4_stop:
+    }
+    [ @file = "/Users/camilledesoubrie/Documents/projects/Sunset-botanical-garden/Sunset-botanical-garden/source/Sunset-botanical-gardenView.mc"; @line = 16; @symbol_functiondef = [onLayout,16,13,21]; @symbol_param<0> = [dc,16,22,24]; @symbol_param<0>_type<0> = [Dc,16,28,30]; ]
+    function onLayout(dc as Dc) as Void {
+_Users_camilledesoubrie_Documents_projects_Sunset_botanical_garden_Sunset_botanical_garden_source_Sunset_botanical_gardenView_mc_16_40_20_4_start:
+[ "/Users/camilledesoubrie/Documents/projects/Sunset-botanical-garden/Sunset-botanical-garden/source/Sunset-botanical-gardenView.mc" 17 8 ]
+        symbol [ WatchUi %tmp.1 18 12 19 ];
+        %tmp.1 = getm $.Toybox.WatchUi;
+        symbol [ loadResource %tmp.2 18 20 32 ];
+        %tmp.2 = getv function %tmp.1 :loadResource;
+        symbol [ Rez %tmp.4 18 33 36 ];
+        %tmp.4 = getv ? :Rez;
+        symbol [ Drawables %tmp.5 18 37 46 ];
+        %tmp.5 = getv %tmp.4 :Drawables;
+        symbol [ watchface_background %tmp.6 18 47 67 ];
+        %tmp.6 = getv %tmp.5 :watchface_background;
+        %tmp.7 = invoke %tmp.1 %tmp.2(%tmp.6);
+        %tmp.8 = as %tmp.7 WatchUi.BitmapResource;
+        symbol [ WatchUi %tmp.8 19 12 19 ];
+        symbol [ BitmapResource %tmp.8 19 20 34 ];
+        symbol [ _background ? 17 8 19 ];
+        putv self :_background %tmp.8;
+_Users_camilledesoubrie_Documents_projects_Sunset_botanical_garden_Sunset_botanical_garden_source_Sunset_botanical_gardenView_mc_16_40_20_4_stop:
+    }
+    [ @file = "/Users/camilledesoubrie/Documents/projects/Sunset-botanical-garden/Sunset-botanical-garden/source/Sunset-botanical-gardenView.mc"; @line = 22; @symbol_functiondef = [onShow,22,13,19]; ]
+    function onShow() as Void {
+    }
+    [ @file = "/Users/camilledesoubrie/Documents/projects/Sunset-botanical-garden/Sunset-botanical-garden/source/Sunset-botanical-gardenView.mc"; @line = 24; @symbol_functiondef = [onUpdate,24,13,21]; @symbol_param<0> = [dc,24,22,24]; @symbol_param<0>_type<0> = [Dc,24,28,30]; ]
+    function onUpdate(dc as Dc) as Void {
+_Users_camilledesoubrie_Documents_projects_Sunset_botanical_garden_Sunset_botanical_garden_source_Sunset_botanical_gardenView_mc_24_40_37_4_start:
+[ "/Users/camilledesoubrie/Documents/projects/Sunset-botanical-garden/Sunset-botanical-garden/source/Sunset-botanical-gardenView.mc" 25 8 ]
+        %tmp.1 = lgetv %dc;
+        symbol [ dc %tmp.1 25 8 10 ];
+        symbol [ setColor %tmp.2 25 11 19 ];
+        %tmp.2 = getv function %tmp.1 :setColor;
+        symbol [ Graphics %tmp.3 25 20 28 ];
+        %tmp.3 = getm $.Toybox.Graphics;
+        symbol [ COLOR_BLACK %tmp.4 25 29 40 ];
+        %tmp.4 = getv %tmp.3 :COLOR_BLACK;
+        symbol [ Graphics %tmp.5 25 42 50 ];
+        %tmp.5 = getm $.Toybox.Graphics;
+        symbol [ COLOR_BLACK %tmp.6 25 51 62 ];
+        %tmp.6 = getv %tmp.5 :COLOR_BLACK;
+        invoke %tmp.1 %tmp.2(%tmp.4, %tmp.6);
+[ "/Users/camilledesoubrie/Documents/projects/Sunset-botanical-garden/Sunset-botanical-garden/source/Sunset-botanical-gardenView.mc" 27 8 ]
+        %tmp.7 = lgetv %dc;
+        symbol [ dc %tmp.7 27 8 10 ];
+        symbol [ clear %tmp.8 27 11 16 ];
+        %tmp.8 = getv function %tmp.7 :clear;
+        invoke %tmp.7 %tmp.8();
+[ "/Users/camilledesoubrie/Documents/projects/Sunset-botanical-garden/Sunset-botanical-garden/source/Sunset-botanical-gardenView.mc" 29 8 ]
+_Users_camilledesoubrie_Documents_projects_Sunset_botanical_garden_Sunset_botanical_garden_source_Sunset_botanical_gardenView_mc_29_8_31_8_if_stmt:
+        symbol [ _background %tmp.10 29 12 23 ];
+        %tmp.10 = getv ? :_background;
+        %tmp.11 = null;
+        %tmp.12 = ne %tmp.10 %tmp.11;
+        bf %tmp.12 @_Users_camilledesoubrie_Documents_projects_Sunset_botanical_garden_Sunset_botanical_garden_source_Sunset_botanical_gardenView_mc_29_8_31_8_if_end;
+_Users_camilledesoubrie_Documents_projects_Sunset_botanical_garden_Sunset_botanical_garden_source_Sunset_botanical_gardenView_mc_29_8_31_8_if_true:
+_Users_camilledesoubrie_Documents_projects_Sunset_botanical_garden_Sunset_botanical_garden_source_Sunset_botanical_gardenView_mc_29_33_31_8_start:
+[ "/Users/camilledesoubrie/Documents/projects/Sunset-botanical-garden/Sunset-botanical-garden/source/Sunset-botanical-gardenView.mc" 30 12 ]
+        %tmp.13 = lgetv %dc;
+        symbol [ dc %tmp.13 30 12 14 ];
+        symbol [ drawBitmap %tmp.14 30 15 25 ];
+        %tmp.14 = getv function %tmp.13 :drawBitmap;
+        %tmp.15 = 0;
+        %tmp.16 = 0;
+        symbol [ _background %tmp.18 30 32 43 ];
+        %tmp.18 = getv ? :_background;
+        %tmp.19 = as %tmp.18 { (!Null) };
+        invoke %tmp.13 %tmp.14(%tmp.15, %tmp.16, %tmp.19);
+_Users_camilledesoubrie_Documents_projects_Sunset_botanical_garden_Sunset_botanical_garden_source_Sunset_botanical_gardenView_mc_29_33_31_8_stop:
+        goto @_Users_camilledesoubrie_Documents_projects_Sunset_botanical_garden_Sunset_botanical_garden_source_Sunset_botanical_gardenView_mc_29_8_31_8_if_end;
+_Users_camilledesoubrie_Documents_projects_Sunset_botanical_garden_Sunset_botanical_garden_source_Sunset_botanical_gardenView_mc_29_8_31_8_if_end:
+[ "/Users/camilledesoubrie/Documents/projects/Sunset-botanical-garden/Sunset-botanical-garden/source/Sunset-botanical-gardenView.mc" 33 8 ]
+        %tmp.20 = self;
+        symbol [ drawTime %tmp.21 33 8 16 ];
+        %tmp.21 = getv function %tmp.20 :drawTime;
+        %tmp.22 = lgetv %dc;
+        symbol [ dc %tmp.22 33 17 19 ];
+        invoke %tmp.20 %tmp.21(%tmp.22);
+[ "/Users/camilledesoubrie/Documents/projects/Sunset-botanical-garden/Sunset-botanical-garden/source/Sunset-botanical-gardenView.mc" 34 8 ]
+        %tmp.23 = self;
+        symbol [ drawDate %tmp.24 34 8 16 ];
+        %tmp.24 = getv function %tmp.23 :drawDate;
+        %tmp.25 = lgetv %dc;
+        symbol [ dc %tmp.25 34 17 19 ];
+        invoke %tmp.23 %tmp.24(%tmp.25);
+[ "/Users/camilledesoubrie/Documents/projects/Sunset-botanical-garden/Sunset-botanical-garden/source/Sunset-botanical-gardenView.mc" 35 8 ]
+        %tmp.26 = self;
+        symbol [ drawSteps %tmp.27 35 8 17 ];
+        %tmp.27 = getv function %tmp.26 :drawSteps;
+        %tmp.28 = lgetv %dc;
+        symbol [ dc %tmp.28 35 18 20 ];
+        invoke %tmp.26 %tmp.27(%tmp.28);
+[ "/Users/camilledesoubrie/Documents/projects/Sunset-botanical-garden/Sunset-botanical-garden/source/Sunset-botanical-gardenView.mc" 36 8 ]
+        %tmp.29 = self;
+        symbol [ drawHeartRate %tmp.30 36 8 21 ];
+        %tmp.30 = getv function %tmp.29 :drawHeartRate;
+        %tmp.31 = lgetv %dc;
+        symbol [ dc %tmp.31 36 22 24 ];
+        invoke %tmp.29 %tmp.30(%tmp.31);
+_Users_camilledesoubrie_Documents_projects_Sunset_botanical_garden_Sunset_botanical_garden_source_Sunset_botanical_gardenView_mc_24_40_37_4_stop:
+    }
+    [ @file = "/Users/camilledesoubrie/Documents/projects/Sunset-botanical-garden/Sunset-botanical-garden/source/Sunset-botanical-gardenView.mc"; @line = 39; @symbol_functiondef = [drawTime,39,21,29]; @symbol_param<0> = [dc,39,30,32]; @symbol_param<0>_type<0> = [Dc,39,36,38]; ]
+    private
+    function drawTime(dc as Dc) as Void {
+_Users_camilledesoubrie_Documents_projects_Sunset_botanical_garden_Sunset_botanical_garden_source_Sunset_botanical_gardenView_mc_39_48_71_4_start:
+[ "/Users/camilledesoubrie/Documents/projects/Sunset-botanical-garden/Sunset-botanical-garden/source/Sunset-botanical-gardenView.mc" 40 8 ]
+        [ "_Users_camilledesoubrie_Documents_projects_Sunset_botanical_garden_Sunset_botanical_garden_source_Sunset_botanical_gardenView_mc_39_48_71_4_start" "_Users_camilledesoubrie_Documents_projects_Sunset_botanical_garden_Sunset_botanical_garden_source_Sunset_botanical_gardenView_mc_39_48_71_4_stop" ]
+        %clock.1 = local;
+        symbol [ clock %clock.1 40 12 17 ];
+        symbol [ System %tmp.1 40 20 26 ];
+        %tmp.1 = getm $.Toybox.System;
+        symbol [ getClockTime %tmp.2 40 27 39 ];
+        %tmp.2 = getv function %tmp.1 :getClockTime;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        lputv %clock.1 %tmp.3;
+        symbol [ clock %clock.1 40 12 17 ];
+[ "/Users/camilledesoubrie/Documents/projects/Sunset-botanical-garden/Sunset-botanical-garden/source/Sunset-botanical-gardenView.mc" 41 8 ]
+        [ "_Users_camilledesoubrie_Documents_projects_Sunset_botanical_garden_Sunset_botanical_garden_source_Sunset_botanical_gardenView_mc_39_48_71_4_start" "_Users_camilledesoubrie_Documents_projects_Sunset_botanical_garden_Sunset_botanical_garden_source_Sunset_botanical_gardenView_mc_39_48_71_4_stop" ]
+        %settings.2 = local;
+        symbol [ settings %settings.2 41 12 20 ];
+        symbol [ System %tmp.4 41 23 29 ];
+        %tmp.4 = getm $.Toybox.System;
+        symbol [ getDeviceSettings %tmp.5 41 30 47 ];
+        %tmp.5 = getv function %tmp.4 :getDeviceSettings;
+        %tmp.6 = invoke %tmp.4 %tmp.5();
+        lputv %settings.2 %tmp.6;
+        symbol [ settings %settings.2 41 12 20 ];
+[ "/Users/camilledesoubrie/Documents/projects/Sunset-botanical-garden/Sunset-botanical-garden/source/Sunset-botanical-gardenView.mc" 42 8 ]
+        [ "_Users_camilledesoubrie_Documents_projects_Sunset_botanical_garden_Sunset_botanical_garden_source_Sunset_botanical_gardenView_mc_39_48_71_4_start" "_Users_camilledesoubrie_Documents_projects_Sunset_botanical_garden_Sunset_botanical_garden_source_Sunset_botanical_gardenView_mc_39_48_71_4_stop" ]
+        %hour.3 = local;
+        symbol [ hour %hour.3 42 12 16 ];
+        %tmp.7 = lgetv %clock.1;
+        symbol [ clock %tmp.7 42 19 24 ];
+        symbol [ hour %tmp.8 42 25 29 ];
+        %tmp.8 = getv %tmp.7 :hour;
+        lputv %hour.3 %tmp.8;
+        symbol [ hour %hour.3 42 12 16 ];
+[ "/Users/camilledesoubrie/Documents/projects/Sunset-botanical-garden/Sunset-botanical-garden/source/Sunset-botanical-gardenView.mc" 43 8 ]
+        [ "_Users_camilledesoubrie_Documents_projects_Sunset_botanical_garden_Sunset_botanical_garden_source_Sunset_botanical_gardenView_mc_39_48_71_4_start" "_Users_camilledesoubrie_Documents_projects_Sunset_botanical_garden_Sunset_botanical_garden_source_Sunset_botanical_gardenView_mc_39_48_71_4_stop" ]
+        %hourText.4 = local;
+        symbol [ hourText %hourText.4 43 12 20 ];
+        %tmp.9 = "";
+        lputv %hourText.4 %tmp.9;
+        symbol [ hourText %hourText.4 43 12 20 ];
+[ "/Users/camilledesoubrie/Documents/projects/Sunset-botanical-garden/Sunset-botanical-garden/source/Sunset-botanical-gardenView.mc" 45 8 ]
+_Users_camilledesoubrie_Documents_projects_Sunset_botanical_garden_Sunset_botanical_garden_source_Sunset_botanical_gardenView_mc_45_8_55_8_if_stmt:
+        %tmp.10 = lgetv %settings.2;
+        symbol [ settings %tmp.10 45 12 20 ];
+        symbol [ is24Hour %tmp.11 45 21 29 ];
+        %tmp.11 = getv %tmp.10 :is24Hour;
+        bf %tmp.11 @_Users_camilledesoubrie_Documents_projects_Sunset_botanical_garden_Sunset_botanical_garden_source_Sunset_botanical_gardenView_mc_45_8_55_8_if_else_false;
+_Users_camilledesoubrie_Documents_projects_Sunset_botanical_garden_Sunset_botanical_garden_source_Sunset_botanical_gardenView_mc_45_8_55_8_if_true:
+_Users_camilledesoubrie_Documents_projects_Sunset_botanical_garden_Sunset_botanical_garden_source_Sunset_botanical_gardenView_mc_45_31_47_8_start:
+[ "/Users/camilledesoubrie/Documents/projects/Sunset-botanical-garden/Sunset-botanical-garden/source/Sunset-botanical-gardenView.mc" 46 12 ]
+        %tmp.12 = lgetv %hour.3;
+        symbol [ hour %tmp.12 46 23 27 ];
+        symbol [ format %tmp.13 46 28 34 ];
+        %tmp.13 = getv function %tmp.12 :format;
+        %tmp.14 = "%02d";
+        %tmp.15 = invoke %tmp.12 %tmp.13(%tmp.14);
+        lputv %hourText.4 %tmp.15;
+        symbol [ hourText %hourText.4 46 12 20 ];
+_Users_camilledesoubrie_Documents_projects_Sunset_botanical_garden_Sunset_botanical_garden_source_Sunset_botanical_gardenView_mc_45_31_47_8_stop:
+        goto @_Users_camilledesoubrie_Documents_projects_Sunset_botanical_garden_Sunset_botanical_garden_source_Sunset_botanical_gardenView_mc_45_8_55_8_if_end;
+_Users_camilledesoubrie_Documents_projects_Sunset_botanical_garden_Sunset_botanical_garden_source_Sunset_botanical_gardenView_mc_45_8_55_8_if_else_false:
+_Users_camilledesoubrie_Documents_projects_Sunset_botanical_garden_Sunset_botanical_garden_source_Sunset_botanical_gardenView_mc_47_15_55_8_start:
+[ "/Users/camilledesoubrie/Documents/projects/Sunset-botanical-garden/Sunset-botanical-garden/source/Sunset-botanical-gardenView.mc" 48 12 ]
+        %tmp.16 = lgetv %hour.3;
+        symbol [ hour %tmp.16 48 19 23 ];
+        %tmp.17 = 12;
+        %tmp.18 = mod %tmp.16 %tmp.17;
+        lputv %hour.3 %tmp.18;
+        symbol [ hour %hour.3 48 12 16 ];
+[ "/Users/camilledesoubrie/Documents/projects/Sunset-botanical-garden/Sunset-botanical-garden/source/Sunset-botanical-gardenView.mc" 50 12 ]
+_Users_camilledesoubrie_Documents_projects_Sunset_botanical_garden_Sunset_botanical_garden_source_Sunset_botanical_gardenView_mc_50_12_52_12_if_stmt:
+        %tmp.19 = lgetv %hour.3;
+        symbol [ hour %tmp.19 50 16 20 ];
+        %tmp.20 = 0;
+        %tmp.21 = eq %tmp.19 %tmp.20;
+        bf %tmp.21 @_Users_camilledesoubrie_Documents_projects_Sunset_botanical_garden_Sunset_botanical_garden_source_Sunset_botanical_gardenView_mc_50_12_52_12_if_end;
+_Users_camilledesoubrie_Documents_projects_Sunset_botanical_garden_Sunset_botanical_garden_source_Sunset_botanical_gardenView_mc_50_12_52_12_if_true:
+_Users_camilledesoubrie_Documents_projects_Sunset_botanical_garden_Sunset_botanical_garden_source_Sunset_botanical_gardenView_mc_50_27_52_12_start:
+[ "/Users/camilledesoubrie/Documents/projects/Sunset-botanical-garden/Sunset-botanical-garden/source/Sunset-botanical-gardenView.mc" 51 16 ]
+        %tmp.22 = 12;
+        lputv %hour.3 %tmp.22;
+        symbol [ hour %hour.3 51 16 20 ];
+_Users_camilledesoubrie_Documents_projects_Sunset_botanical_garden_Sunset_botanical_garden_source_Sunset_botanical_gardenView_mc_50_27_52_12_stop:
+        goto @_Users_camilledesoubrie_Documents_projects_Sunset_botanical_garden_Sunset_botanical_garden_source_Sunset_botanical_gardenView_mc_50_12_52_12_if_end;
+_Users_camilledesoubrie_Documents_projects_Sunset_botanical_garden_Sunset_botanical_garden_source_Sunset_botanical_gardenView_mc_50_12_52_12_if_end:
+[ "/Users/camilledesoubrie/Documents/projects/Sunset-botanical-garden/Sunset-botanical-garden/source/Sunset-botanical-gardenView.mc" 54 12 ]
+        %tmp.23 = lgetv %hour.3;
+        symbol [ hour %tmp.23 54 23 27 ];
+        symbol [ format %tmp.24 54 28 34 ];
+        %tmp.24 = getv function %tmp.23 :format;
+        %tmp.25 = "%d";
+        %tmp.26 = invoke %tmp.23 %tmp.24(%tmp.25);
+        lputv %hourText.4 %tmp.26;
+        symbol [ hourText %hourText.4 54 12 20 ];
+_Users_camilledesoubrie_Documents_projects_Sunset_botanical_garden_Sunset_botanical_garden_source_Sunset_botanical_gardenView_mc_47_15_55_8_stop:
+_Users_camilledesoubrie_Documents_projects_Sunset_botanical_garden_Sunset_botanical_garden_source_Sunset_botanical_gardenView_mc_45_8_55_8_if_end:
+[ "/Users/camilledesoubrie/Documents/projects/Sunset-botanical-garden/Sunset-botanical-garden/source/Sunset-botanical-gardenView.mc" 57 8 ]
+        [ "_Users_camilledesoubrie_Documents_projects_Sunset_botanical_garden_Sunset_botanical_garden_source_Sunset_botanical_gardenView_mc_39_48_71_4_start" "_Users_camilledesoubrie_Documents_projects_Sunset_botanical_garden_Sunset_botanical_garden_source_Sunset_botanical_gardenView_mc_39_48_71_4_stop" ]
+        %timeText.5 = local;
+        symbol [ timeText %timeText.5 57 12 20 ];
+        symbol [ Lang %tmp.27 57 23 27 ];
+        %tmp.27 = getm $.Toybox.Lang;
+        symbol [ format %tmp.28 57 28 34 ];
+        %tmp.28 = getv function %tmp.27 :format;
+        %tmp.29 = "$1$:$2$";
+        %tmp.30 = newa 2;
+        %tmp.31 = lgetv %hourText.4;
+        symbol [ hourText %tmp.31 58 12 20 ];
+        %tmp.32 = dup %tmp.30;
+        %tmp.33 = aputv %tmp.32 0 %tmp.31;
+        %tmp.34 = lgetv %clock.1;
+        symbol [ clock %tmp.34 59 12 17 ];
+        symbol [ min %tmp.35 59 18 21 ];
+        %tmp.35 = getv %tmp.34 :min;
+        symbol [ format %tmp.36 59 22 28 ];
+        %tmp.36 = getv function %tmp.35 :format;
+        %tmp.37 = "%02d";
+        %tmp.38 = invoke %tmp.35 %tmp.36(%tmp.37);
+        %tmp.39 = dup %tmp.33;
+        %tmp.40 = aputv %tmp.39 1 %tmp.38;
+        %tmp.41 = invoke %tmp.27 %tmp.28(%tmp.29, %tmp.40);
+        lputv %timeText.5 %tmp.41;
+        symbol [ timeText %timeText.5 57 12 20 ];
+[ "/Users/camilledesoubrie/Documents/projects/Sunset-botanical-garden/Sunset-botanical-garden/source/Sunset-botanical-gardenView.mc" 62 8 ]
+        %tmp.42 = lgetv %dc;
+        symbol [ dc %tmp.42 62 8 10 ];
+        symbol [ setColor %tmp.43 62 11 19 ];
+        %tmp.43 = getv function %tmp.42 :setColor;
+        %tmp.44 = 0xfff4e5;
+        symbol [ Graphics %tmp.45 62 30 38 ];
+        %tmp.45 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.46 62 39 56 ];
+        %tmp.46 = getv %tmp.45 :COLOR_TRANSPARENT;
+        invoke %tmp.42 %tmp.43(%tmp.44, %tmp.46);
+[ "/Users/camilledesoubrie/Documents/projects/Sunset-botanical-garden/Sunset-botanical-garden/source/Sunset-botanical-gardenView.mc" 64 8 ]
+        %tmp.47 = lgetv %dc;
+        symbol [ dc %tmp.47 64 8 10 ];
+        symbol [ drawText %tmp.48 64 11 19 ];
+        %tmp.48 = getv function %tmp.47 :drawText;
+        %tmp.49 = lgetv %dc;
+        symbol [ dc %tmp.49 65 12 14 ];
+        symbol [ getWidth %tmp.50 65 15 23 ];
+        %tmp.50 = getv function %tmp.49 :getWidth;
+        %tmp.51 = invoke %tmp.49 %tmp.50();
+        %tmp.52 = 2;
+        %tmp.53 = div %tmp.51 %tmp.52;
+        %tmp.54 = 112;
+        symbol [ Graphics %tmp.55 67 12 20 ];
+        %tmp.55 = getm $.Toybox.Graphics;
+        symbol [ FONT_NUMBER_MILD %tmp.56 67 21 37 ];
+        %tmp.56 = getv %tmp.55 :FONT_NUMBER_MILD;
+        %tmp.57 = lgetv %timeText.5;
+        symbol [ timeText %tmp.57 68 12 20 ];
+        symbol [ Graphics %tmp.58 69 12 20 ];
+        %tmp.58 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.59 69 21 40 ];
+        %tmp.59 = getv %tmp.58 :TEXT_JUSTIFY_CENTER;
+        symbol [ Graphics %tmp.60 69 43 51 ];
+        %tmp.60 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_VCENTER %tmp.61 69 52 72 ];
+        %tmp.61 = getv %tmp.60 :TEXT_JUSTIFY_VCENTER;
+        %tmp.62 = bitor %tmp.59 %tmp.61;
+        invoke %tmp.47 %tmp.48(%tmp.53, %tmp.54, %tmp.56, %tmp.57, %tmp.62);
+_Users_camilledesoubrie_Documents_projects_Sunset_botanical_garden_Sunset_botanical_garden_source_Sunset_botanical_gardenView_mc_39_48_71_4_stop:
+    }
+    [ @file = "/Users/camilledesoubrie/Documents/projects/Sunset-botanical-garden/Sunset-botanical-garden/source/Sunset-botanical-gardenView.mc"; @line = 73; @symbol_functiondef = [drawDate,73,21,29]; @symbol_param<0> = [dc,73,30,32]; @symbol_param<0>_type<0> = [Dc,73,36,38]; ]
+    private
+    function drawDate(dc as Dc) as Void {
+_Users_camilledesoubrie_Documents_projects_Sunset_botanical_garden_Sunset_botanical_garden_source_Sunset_botanical_gardenView_mc_73_48_91_4_start:
+[ "/Users/camilledesoubrie/Documents/projects/Sunset-botanical-garden/Sunset-botanical-garden/source/Sunset-botanical-gardenView.mc" 74 8 ]
+        [ "_Users_camilledesoubrie_Documents_projects_Sunset_botanical_garden_Sunset_botanical_garden_source_Sunset_botanical_gardenView_mc_73_48_91_4_start" "_Users_camilledesoubrie_Documents_projects_Sunset_botanical_garden_Sunset_botanical_garden_source_Sunset_botanical_gardenView_mc_73_48_91_4_stop" ]
+        %today.1 = local;
+        symbol [ today %today.1 74 12 17 ];
+        symbol [ Gregorian %tmp.1 74 20 29 ];
+        %tmp.1 = getm $.Toybox.Time.Gregorian;
+        symbol [ info %tmp.2 74 30 34 ];
+        %tmp.2 = getv function %tmp.1 :info;
+        symbol [ Time %tmp.3 74 35 39 ];
+        %tmp.3 = getm $.Toybox.Time;
+        symbol [ now %tmp.4 74 40 43 ];
+        %tmp.4 = getv function %tmp.3 :now;
+        %tmp.5 = invoke %tmp.3 %tmp.4();
+        symbol [ Time %tmp.6 74 47 51 ];
+        %tmp.6 = getm $.Toybox.Time;
+        symbol [ FORMAT_MEDIUM %tmp.7 74 52 65 ];
+        %tmp.7 = getv %tmp.6 :FORMAT_MEDIUM;
+        %tmp.8 = invoke %tmp.1 %tmp.2(%tmp.5, %tmp.7);
+        lputv %today.1 %tmp.8;
+        symbol [ today %today.1 74 12 17 ];
+[ "/Users/camilledesoubrie/Documents/projects/Sunset-botanical-garden/Sunset-botanical-garden/source/Sunset-botanical-gardenView.mc" 76 8 ]
+        [ "_Users_camilledesoubrie_Documents_projects_Sunset_botanical_garden_Sunset_botanical_garden_source_Sunset_botanical_gardenView_mc_73_48_91_4_start" "_Users_camilledesoubrie_Documents_projects_Sunset_botanical_garden_Sunset_botanical_garden_source_Sunset_botanical_gardenView_mc_73_48_91_4_stop" ]
+        %dateText.2 = local;
+        symbol [ dateText %dateText.2 76 12 20 ];
+        symbol [ Lang %tmp.9 76 23 27 ];
+        %tmp.9 = getm $.Toybox.Lang;
+        symbol [ format %tmp.10 76 28 34 ];
+        %tmp.10 = getv function %tmp.9 :format;
+        %tmp.11 = "$1$ $2$ $3$";
+        %tmp.12 = newa 3;
+        %tmp.13 = lgetv %today.1;
+        symbol [ today %tmp.13 77 12 17 ];
+        symbol [ day_of_week %tmp.14 77 18 29 ];
+        %tmp.14 = getv %tmp.13 :day_of_week;
+        %tmp.15 = dup %tmp.12;
+        %tmp.16 = aputv %tmp.15 0 %tmp.14;
+        %tmp.17 = lgetv %today.1;
+        symbol [ today %tmp.17 78 12 17 ];
+        symbol [ day %tmp.18 78 18 21 ];
+        %tmp.18 = getv %tmp.17 :day;
+        %tmp.19 = dup %tmp.16;
+        %tmp.20 = aputv %tmp.19 1 %tmp.18;
+        %tmp.21 = lgetv %today.1;
+        symbol [ today %tmp.21 79 12 17 ];
+        symbol [ month %tmp.22 79 18 23 ];
+        %tmp.22 = getv %tmp.21 :month;
+        %tmp.23 = dup %tmp.20;
+        %tmp.24 = aputv %tmp.23 2 %tmp.22;
+        %tmp.25 = invoke %tmp.9 %tmp.10(%tmp.11, %tmp.24);
+        lputv %dateText.2 %tmp.25;
+        symbol [ dateText %dateText.2 76 12 20 ];
+[ "/Users/camilledesoubrie/Documents/projects/Sunset-botanical-garden/Sunset-botanical-garden/source/Sunset-botanical-gardenView.mc" 82 8 ]
+        %tmp.26 = lgetv %dc;
+        symbol [ dc %tmp.26 82 8 10 ];
+        symbol [ setColor %tmp.27 82 11 19 ];
+        %tmp.27 = getv function %tmp.26 :setColor;
+        %tmp.28 = 0xc9d8ad;
+        symbol [ Graphics %tmp.29 82 30 38 ];
+        %tmp.29 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.30 82 39 56 ];
+        %tmp.30 = getv %tmp.29 :COLOR_TRANSPARENT;
+        invoke %tmp.26 %tmp.27(%tmp.28, %tmp.30);
+[ "/Users/camilledesoubrie/Documents/projects/Sunset-botanical-garden/Sunset-botanical-garden/source/Sunset-botanical-gardenView.mc" 84 8 ]
+        %tmp.31 = lgetv %dc;
+        symbol [ dc %tmp.31 84 8 10 ];
+        symbol [ drawText %tmp.32 84 11 19 ];
+        %tmp.32 = getv function %tmp.31 :drawText;
+        %tmp.33 = lgetv %dc;
+        symbol [ dc %tmp.33 85 12 14 ];
+        symbol [ getWidth %tmp.34 85 15 23 ];
+        %tmp.34 = getv function %tmp.33 :getWidth;
+        %tmp.35 = invoke %tmp.33 %tmp.34();
+        %tmp.36 = 2;
+        %tmp.37 = div %tmp.35 %tmp.36;
+        %tmp.38 = 165;
+        symbol [ Graphics %tmp.39 87 12 20 ];
+        %tmp.39 = getm $.Toybox.Graphics;
+        symbol [ FONT_XTINY %tmp.40 87 21 31 ];
+        %tmp.40 = getv %tmp.39 :FONT_XTINY;
+        %tmp.41 = lgetv %dateText.2;
+        symbol [ dateText %tmp.41 88 12 20 ];
+        symbol [ Graphics %tmp.42 89 12 20 ];
+        %tmp.42 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.43 89 21 40 ];
+        %tmp.43 = getv %tmp.42 :TEXT_JUSTIFY_CENTER;
+        symbol [ Graphics %tmp.44 89 43 51 ];
+        %tmp.44 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_VCENTER %tmp.45 89 52 72 ];
+        %tmp.45 = getv %tmp.44 :TEXT_JUSTIFY_VCENTER;
+        %tmp.46 = bitor %tmp.43 %tmp.45;
+        invoke %tmp.31 %tmp.32(%tmp.37, %tmp.38, %tmp.40, %tmp.41, %tmp.46);
+_Users_camilledesoubrie_Documents_projects_Sunset_botanical_garden_Sunset_botanical_garden_source_Sunset_botanical_gardenView_mc_73_48_91_4_stop:
+    }
+    [ @file = "/Users/camilledesoubrie/Documents/projects/Sunset-botanical-garden/Sunset-botanical-garden/source/Sunset-botanical-gardenView.mc"; @line = 93; @symbol_functiondef = [drawSteps,93,21,30]; @symbol_param<0> = [dc,93,31,33]; @symbol_param<0>_type<0> = [Dc,93,37,39]; ]
+    private
+    function drawSteps(dc as Dc) as Void {
+_Users_camilledesoubrie_Documents_projects_Sunset_botanical_garden_Sunset_botanical_garden_source_Sunset_botanical_gardenView_mc_93_49_110_4_start:
+[ "/Users/camilledesoubrie/Documents/projects/Sunset-botanical-garden/Sunset-botanical-garden/source/Sunset-botanical-gardenView.mc" 94 8 ]
+        [ "_Users_camilledesoubrie_Documents_projects_Sunset_botanical_garden_Sunset_botanical_garden_source_Sunset_botanical_gardenView_mc_93_49_110_4_start" "_Users_camilledesoubrie_Documents_projects_Sunset_botanical_garden_Sunset_botanical_garden_source_Sunset_botanical_gardenView_mc_93_49_110_4_stop" ]
+        %info.1 = local;
+        symbol [ info %info.1 94 12 16 ];
+        symbol [ ActivityMonitor %tmp.1 94 19 34 ];
+        %tmp.1 = getm $.Toybox.ActivityMonitor;
+        symbol [ getInfo %tmp.2 94 35 42 ];
+        %tmp.2 = getv function %tmp.1 :getInfo;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        lputv %info.1 %tmp.3;
+        symbol [ info %info.1 94 12 16 ];
+[ "/Users/camilledesoubrie/Documents/projects/Sunset-botanical-garden/Sunset-botanical-garden/source/Sunset-botanical-gardenView.mc" 95 8 ]
+        [ "_Users_camilledesoubrie_Documents_projects_Sunset_botanical_garden_Sunset_botanical_garden_source_Sunset_botanical_gardenView_mc_93_49_110_4_start" "_Users_camilledesoubrie_Documents_projects_Sunset_botanical_garden_Sunset_botanical_garden_source_Sunset_botanical_gardenView_mc_93_49_110_4_stop" ]
+        %stepsText.2 = local;
+        symbol [ stepsText %stepsText.2 95 12 21 ];
+        %tmp.4 = "--";
+        lputv %stepsText.2 %tmp.4;
+        symbol [ stepsText %stepsText.2 95 12 21 ];
+[ "/Users/camilledesoubrie/Documents/projects/Sunset-botanical-garden/Sunset-botanical-garden/source/Sunset-botanical-gardenView.mc" 97 8 ]
+_Users_camilledesoubrie_Documents_projects_Sunset_botanical_garden_Sunset_botanical_garden_source_Sunset_botanical_gardenView_mc_97_8_99_8_if_stmt:
+        %tmp.5 = lgetv %info.1;
+        symbol [ info %tmp.5 97 12 16 ];
+        symbol [ steps %tmp.6 97 17 22 ];
+        %tmp.6 = getv %tmp.5 :steps;
+        %tmp.7 = null;
+        %tmp.8 = ne %tmp.6 %tmp.7;
+        bf %tmp.8 @_Users_camilledesoubrie_Documents_projects_Sunset_botanical_garden_Sunset_botanical_garden_source_Sunset_botanical_gardenView_mc_97_8_99_8_if_end;
+_Users_camilledesoubrie_Documents_projects_Sunset_botanical_garden_Sunset_botanical_garden_source_Sunset_botanical_gardenView_mc_97_8_99_8_if_true:
+_Users_camilledesoubrie_Documents_projects_Sunset_botanical_garden_Sunset_botanical_garden_source_Sunset_botanical_gardenView_mc_97_32_99_8_start:
+[ "/Users/camilledesoubrie/Documents/projects/Sunset-botanical-garden/Sunset-botanical-garden/source/Sunset-botanical-gardenView.mc" 98 12 ]
+        %tmp.9 = lgetv %info.1;
+        symbol [ info %tmp.9 98 24 28 ];
+        symbol [ steps %tmp.10 98 29 34 ];
+        %tmp.10 = getv %tmp.9 :steps;
+        symbol [ format %tmp.11 98 35 41 ];
+        %tmp.11 = getv function %tmp.10 :format;
+        %tmp.12 = "%d";
+        %tmp.13 = invoke %tmp.10 %tmp.11(%tmp.12);
+        lputv %stepsText.2 %tmp.13;
+        symbol [ stepsText %stepsText.2 98 12 21 ];
+_Users_camilledesoubrie_Documents_projects_Sunset_botanical_garden_Sunset_botanical_garden_source_Sunset_botanical_gardenView_mc_97_32_99_8_stop:
+        goto @_Users_camilledesoubrie_Documents_projects_Sunset_botanical_garden_Sunset_botanical_garden_source_Sunset_botanical_gardenView_mc_97_8_99_8_if_end;
+_Users_camilledesoubrie_Documents_projects_Sunset_botanical_garden_Sunset_botanical_garden_source_Sunset_botanical_gardenView_mc_97_8_99_8_if_end:
+[ "/Users/camilledesoubrie/Documents/projects/Sunset-botanical-garden/Sunset-botanical-garden/source/Sunset-botanical-gardenView.mc" 101 8 ]
+        %tmp.14 = lgetv %dc;
+        symbol [ dc %tmp.14 101 8 10 ];
+        symbol [ setColor %tmp.15 101 11 19 ];
+        %tmp.15 = getv function %tmp.14 :setColor;
+        %tmp.16 = 0xffa46d;
+        symbol [ Graphics %tmp.17 101 30 38 ];
+        %tmp.17 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.18 101 39 56 ];
+        %tmp.18 = getv %tmp.17 :COLOR_TRANSPARENT;
+        invoke %tmp.14 %tmp.15(%tmp.16, %tmp.18);
+[ "/Users/camilledesoubrie/Documents/projects/Sunset-botanical-garden/Sunset-botanical-garden/source/Sunset-botanical-gardenView.mc" 103 8 ]
+        %tmp.19 = lgetv %dc;
+        symbol [ dc %tmp.19 103 8 10 ];
+        symbol [ drawText %tmp.20 103 11 19 ];
+        %tmp.20 = getv function %tmp.19 :drawText;
+        %tmp.21 = 292;
+        %tmp.22 = 322;
+        symbol [ Graphics %tmp.23 106 12 20 ];
+        %tmp.23 = getm $.Toybox.Graphics;
+        symbol [ FONT_XTINY %tmp.24 106 21 31 ];
+        %tmp.24 = getv %tmp.23 :FONT_XTINY;
+        %tmp.25 = lgetv %stepsText.2;
+        symbol [ stepsText %tmp.25 107 12 21 ];
+        symbol [ Graphics %tmp.26 108 12 20 ];
+        %tmp.26 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.27 108 21 40 ];
+        %tmp.27 = getv %tmp.26 :TEXT_JUSTIFY_CENTER;
+        symbol [ Graphics %tmp.28 108 43 51 ];
+        %tmp.28 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_VCENTER %tmp.29 108 52 72 ];
+        %tmp.29 = getv %tmp.28 :TEXT_JUSTIFY_VCENTER;
+        %tmp.30 = bitor %tmp.27 %tmp.29;
+        invoke %tmp.19 %tmp.20(%tmp.21, %tmp.22, %tmp.24, %tmp.25, %tmp.30);
+_Users_camilledesoubrie_Documents_projects_Sunset_botanical_garden_Sunset_botanical_garden_source_Sunset_botanical_gardenView_mc_93_49_110_4_stop:
+    }
+    [ @file = "/Users/camilledesoubrie/Documents/projects/Sunset-botanical-garden/Sunset-botanical-garden/source/Sunset-botanical-gardenView.mc"; @line = 112; @symbol_functiondef = [drawHeartRate,112,21,34]; @symbol_param<0> = [dc,112,35,37]; @symbol_param<0>_type<0> = [Dc,112,41,43]; ]
+    private
+    function drawHeartRate(dc as Dc) as Void {
+_Users_camilledesoubrie_Documents_projects_Sunset_botanical_garden_Sunset_botanical_garden_source_Sunset_botanical_gardenView_mc_112_53_135_4_start:
+[ "/Users/camilledesoubrie/Documents/projects/Sunset-botanical-garden/Sunset-botanical-garden/source/Sunset-botanical-gardenView.mc" 113 8 ]
+        [ "_Users_camilledesoubrie_Documents_projects_Sunset_botanical_garden_Sunset_botanical_garden_source_Sunset_botanical_gardenView_mc_112_53_135_4_start" "_Users_camilledesoubrie_Documents_projects_Sunset_botanical_garden_Sunset_botanical_garden_source_Sunset_botanical_gardenView_mc_112_53_135_4_stop" ]
+        %heartRateText.1 = local;
+        symbol [ heartRateText %heartRateText.1 113 12 25 ];
+        %tmp.1 = "--";
+        lputv %heartRateText.1 %tmp.1;
+        symbol [ heartRateText %heartRateText.1 113 12 25 ];
+[ "/Users/camilledesoubrie/Documents/projects/Sunset-botanical-garden/Sunset-botanical-garden/source/Sunset-botanical-gardenView.mc" 114 8 ]
+        [ "_Users_camilledesoubrie_Documents_projects_Sunset_botanical_garden_Sunset_botanical_garden_source_Sunset_botanical_gardenView_mc_112_53_135_4_start" "_Users_camilledesoubrie_Documents_projects_Sunset_botanical_garden_Sunset_botanical_garden_source_Sunset_botanical_gardenView_mc_112_53_135_4_stop" ]
+        %iterator.2 = local;
+        symbol [ iterator %iterator.2 114 12 20 ];
+        symbol [ ActivityMonitor %tmp.2 114 23 38 ];
+        %tmp.2 = getm $.Toybox.ActivityMonitor;
+        symbol [ getHeartRateHistory %tmp.3 114 39 58 ];
+        %tmp.3 = getv function %tmp.2 :getHeartRateHistory;
+        %tmp.4 = 1;
+        %tmp.5 = true;
+        %tmp.6 = invoke %tmp.2 %tmp.3(%tmp.4, %tmp.5);
+        lputv %iterator.2 %tmp.6;
+        symbol [ iterator %iterator.2 114 12 20 ];
+[ "/Users/camilledesoubrie/Documents/projects/Sunset-botanical-garden/Sunset-botanical-garden/source/Sunset-botanical-gardenView.mc" 116 8 ]
+        [ "_Users_camilledesoubrie_Documents_projects_Sunset_botanical_garden_Sunset_botanical_garden_source_Sunset_botanical_gardenView_mc_112_53_135_4_start" "_Users_camilledesoubrie_Documents_projects_Sunset_botanical_garden_Sunset_botanical_garden_source_Sunset_botanical_gardenView_mc_112_53_135_4_stop" ]
+        %sample.3 = local;
+        symbol [ sample %sample.3 116 12 18 ];
+        %tmp.7 = lgetv %iterator.2;
+        symbol [ iterator %tmp.7 116 21 29 ];
+        symbol [ next %tmp.8 116 30 34 ];
+        %tmp.8 = getv function %tmp.7 :next;
+        %tmp.9 = invoke %tmp.7 %tmp.8();
+        lputv %sample.3 %tmp.9;
+        symbol [ sample %sample.3 116 12 18 ];
+[ "/Users/camilledesoubrie/Documents/projects/Sunset-botanical-garden/Sunset-botanical-garden/source/Sunset-botanical-gardenView.mc" 118 8 ]
+_Users_camilledesoubrie_Documents_projects_Sunset_botanical_garden_Sunset_botanical_garden_source_Sunset_botanical_gardenView_mc_118_8_124_8_if_stmt:
+_Users_camilledesoubrie_Documents_projects_Sunset_botanical_garden_Sunset_botanical_garden_source_Sunset_botanical_gardenView_mc_119_12_121_48_begin:
+_Users_camilledesoubrie_Documents_projects_Sunset_botanical_garden_Sunset_botanical_garden_source_Sunset_botanical_gardenView_mc_119_12_120_32_begin:
+        %tmp.10 = lgetv %sample.3;
+        symbol [ sample %tmp.10 119 12 18 ];
+        %tmp.11 = null;
+        %tmp.12 = ne %tmp.10 %tmp.11;
+        bf %tmp.12 @_Users_camilledesoubrie_Documents_projects_Sunset_botanical_garden_Sunset_botanical_garden_source_Sunset_botanical_gardenView_mc_118_8_124_8_if_end;
+_Users_camilledesoubrie_Documents_projects_Sunset_botanical_garden_Sunset_botanical_garden_source_Sunset_botanical_gardenView_mc_120_12_120_32_true:
+        %tmp.13 = lgetv %sample.3;
+        symbol [ sample %tmp.13 120 12 18 ];
+        %tmp.14 = as %tmp.13 { (!Null) };
+        symbol [ heartRate %tmp.15 120 19 28 ];
+        %tmp.15 = getv %tmp.14 :heartRate;
+        %tmp.16 = null;
+        %tmp.17 = ne %tmp.15 %tmp.16;
+        push %tmp.17;
+_Users_camilledesoubrie_Documents_projects_Sunset_botanical_garden_Sunset_botanical_garden_source_Sunset_botanical_gardenView_mc_120_12_120_32_end:
+        %tmp.18 = phi [%tmp.12 @_Users_camilledesoubrie_Documents_projects_Sunset_botanical_garden_Sunset_botanical_garden_source_Sunset_botanical_gardenView_mc_119_12_120_32_begin] [%tmp.17 @_Users_camilledesoubrie_Documents_projects_Sunset_botanical_garden_Sunset_botanical_garden_source_Sunset_botanical_gardenView_mc_120_12_120_32_true] [%tmp.18 @_Users_camilledesoubrie_Documents_projects_Sunset_botanical_garden_Sunset_botanical_garden_source_Sunset_botanical_gardenView_mc_120_12_120_32_end];
+        bf %tmp.18 @_Users_camilledesoubrie_Documents_projects_Sunset_botanical_garden_Sunset_botanical_garden_source_Sunset_botanical_gardenView_mc_118_8_124_8_if_end;
+_Users_camilledesoubrie_Documents_projects_Sunset_botanical_garden_Sunset_botanical_garden_source_Sunset_botanical_gardenView_mc_121_12_121_48_true:
+        %tmp.19 = lgetv %sample.3;
+        symbol [ sample %tmp.19 121 12 18 ];
+        %tmp.20 = as %tmp.19 { (!Null) };
+        symbol [ heartRate %tmp.21 121 19 28 ];
+        %tmp.21 = getv %tmp.20 :heartRate;
+        symbol [ ActivityMonitor %tmp.22 121 32 47 ];
+        %tmp.22 = getm $.Toybox.ActivityMonitor;
+        symbol [ INVALID_HR_SAMPLE %tmp.23 121 48 65 ];
+        %tmp.23 = getv %tmp.22 :INVALID_HR_SAMPLE;
+        %tmp.24 = ne %tmp.21 %tmp.23;
+        push %tmp.24;
+_Users_camilledesoubrie_Documents_projects_Sunset_botanical_garden_Sunset_botanical_garden_source_Sunset_botanical_gardenView_mc_121_12_121_48_end:
+        %tmp.25 = phi [%tmp.18 @_Users_camilledesoubrie_Documents_projects_Sunset_botanical_garden_Sunset_botanical_garden_source_Sunset_botanical_gardenView_mc_119_12_121_48_begin] [%tmp.24 @_Users_camilledesoubrie_Documents_projects_Sunset_botanical_garden_Sunset_botanical_garden_source_Sunset_botanical_gardenView_mc_121_12_121_48_true] [%tmp.25 @_Users_camilledesoubrie_Documents_projects_Sunset_botanical_garden_Sunset_botanical_garden_source_Sunset_botanical_gardenView_mc_121_12_121_48_end];
+        bf %tmp.25 @_Users_camilledesoubrie_Documents_projects_Sunset_botanical_garden_Sunset_botanical_garden_source_Sunset_botanical_gardenView_mc_118_8_124_8_if_end;
+_Users_camilledesoubrie_Documents_projects_Sunset_botanical_garden_Sunset_botanical_garden_source_Sunset_botanical_gardenView_mc_118_8_124_8_if_true:
+_Users_camilledesoubrie_Documents_projects_Sunset_botanical_garden_Sunset_botanical_garden_source_Sunset_botanical_gardenView_mc_122_10_124_8_start:
+[ "/Users/camilledesoubrie/Documents/projects/Sunset-botanical-garden/Sunset-botanical-garden/source/Sunset-botanical-gardenView.mc" 123 12 ]
+        %tmp.26 = lgetv %sample.3;
+        symbol [ sample %tmp.26 123 28 34 ];
+        %tmp.27 = as %tmp.26 { (!Null) };
+        symbol [ heartRate %tmp.28 123 35 44 ];
+        %tmp.28 = getv %tmp.27 :heartRate;
+        symbol [ format %tmp.29 123 45 51 ];
+        %tmp.29 = getv function %tmp.28 :format;
+        %tmp.30 = "%d";
+        %tmp.31 = invoke %tmp.28 %tmp.29(%tmp.30);
+        lputv %heartRateText.1 %tmp.31;
+        symbol [ heartRateText %heartRateText.1 123 12 25 ];
+_Users_camilledesoubrie_Documents_projects_Sunset_botanical_garden_Sunset_botanical_garden_source_Sunset_botanical_gardenView_mc_122_10_124_8_stop:
+        goto @_Users_camilledesoubrie_Documents_projects_Sunset_botanical_garden_Sunset_botanical_garden_source_Sunset_botanical_gardenView_mc_118_8_124_8_if_end;
+_Users_camilledesoubrie_Documents_projects_Sunset_botanical_garden_Sunset_botanical_garden_source_Sunset_botanical_gardenView_mc_118_8_124_8_if_end:
+[ "/Users/camilledesoubrie/Documents/projects/Sunset-botanical-garden/Sunset-botanical-garden/source/Sunset-botanical-gardenView.mc" 126 8 ]
+        %tmp.32 = lgetv %dc;
+        symbol [ dc %tmp.32 126 8 10 ];
+        symbol [ setColor %tmp.33 126 11 19 ];
+        %tmp.33 = getv function %tmp.32 :setColor;
+        %tmp.34 = 0xc9d8ad;
+        symbol [ Graphics %tmp.35 126 30 38 ];
+        %tmp.35 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.36 126 39 56 ];
+        %tmp.36 = getv %tmp.35 :COLOR_TRANSPARENT;
+        invoke %tmp.32 %tmp.33(%tmp.34, %tmp.36);
+[ "/Users/camilledesoubrie/Documents/projects/Sunset-botanical-garden/Sunset-botanical-garden/source/Sunset-botanical-gardenView.mc" 128 8 ]
+        %tmp.37 = lgetv %dc;
+        symbol [ dc %tmp.37 128 8 10 ];
+        symbol [ drawText %tmp.38 128 11 19 ];
+        %tmp.38 = getv function %tmp.37 :drawText;
+        %tmp.39 = 104;
+        %tmp.40 = 322;
+        symbol [ Graphics %tmp.41 131 12 20 ];
+        %tmp.41 = getm $.Toybox.Graphics;
+        symbol [ FONT_XTINY %tmp.42 131 21 31 ];
+        %tmp.42 = getv %tmp.41 :FONT_XTINY;
+        %tmp.43 = lgetv %heartRateText.1;
+        symbol [ heartRateText %tmp.43 132 12 25 ];
+        symbol [ Graphics %tmp.44 133 12 20 ];
+        %tmp.44 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.45 133 21 40 ];
+        %tmp.45 = getv %tmp.44 :TEXT_JUSTIFY_CENTER;
+        symbol [ Graphics %tmp.46 133 43 51 ];
+        %tmp.46 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_VCENTER %tmp.47 133 52 72 ];
+        %tmp.47 = getv %tmp.46 :TEXT_JUSTIFY_VCENTER;
+        %tmp.48 = bitor %tmp.45 %tmp.47;
+        invoke %tmp.37 %tmp.38(%tmp.39, %tmp.40, %tmp.42, %tmp.43, %tmp.48);
+_Users_camilledesoubrie_Documents_projects_Sunset_botanical_garden_Sunset_botanical_garden_source_Sunset_botanical_gardenView_mc_112_53_135_4_stop:
+    }
+    [ @file = "/Users/camilledesoubrie/Documents/projects/Sunset-botanical-garden/Sunset-botanical-garden/source/Sunset-botanical-gardenView.mc"; @line = 137; @symbol_functiondef = [onHide,137,13,19]; ]
+    function onHide() as Void {
+    }
+    [ @file = "/Users/camilledesoubrie/Documents/projects/Sunset-botanical-garden/Sunset-botanical-garden/source/Sunset-botanical-gardenView.mc"; @line = 139; @symbol_functiondef = [onExitSleep,139,13,24]; ]
+    function onExitSleep() as Void {
+    }
+    [ @file = "/Users/camilledesoubrie/Documents/projects/Sunset-botanical-garden/Sunset-botanical-garden/source/Sunset-botanical-gardenView.mc"; @line = 141; @symbol_functiondef = [onEnterSleep,141,13,25]; ]
+    function onEnterSleep() as Void {
+    }
+}
+[ @file = "/Users/camilledesoubrie/Documents/projects/Sunset-botanical-garden/Sunset-botanical-garden/source/Sunset-botanical-gardenView.mc"; @line = 1; ]
+<init> {
+}
