@@ -1,0 +1,131 @@
+[ @file = "/Users/camilledesoubrie/Documents/projects/Sunset-botanical-garden/Sunset-botanical-garden/bin/gen/006-B3226-00/source/Rez.mcgen"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [Lang,1,14,18]; ]
+import Toybox.Lang;
+[ @file = "/Users/camilledesoubrie/Documents/projects/Sunset-botanical-garden/Sunset-botanical-garden/bin/gen/006-B3226-00/source/Rez.mcgen"; @line = 2; @symbol_usingdef<0> = [Toybox,2,6,12]; @symbol_usingdef<1> = [WatchUi,2,13,20]; ]
+using Toybox.WatchUi;
+[ @file = "/Users/camilledesoubrie/Documents/projects/Sunset-botanical-garden/Sunset-botanical-garden/bin/gen/006-B3226-00/source/Rez.mcgen"; @line = 3; @symbol_usingdef<0> = [Toybox,3,6,12]; @symbol_usingdef<1> = [WatchUi,3,13,20]; @symbol_usingAlias = [Ui,3,24,26]; ]
+using Toybox.WatchUi as :Ui;
+[ @file = "/Users/camilledesoubrie/Documents/projects/Sunset-botanical-garden/Sunset-botanical-garden/bin/gen/006-B3226-00/source/Rez.mcgen"; @line = 4; @symbol_usingdef<0> = [Toybox,4,6,12]; @symbol_usingdef<1> = [Graphics,4,13,21]; ]
+using Toybox.Graphics;
+[ @file = "/Users/camilledesoubrie/Documents/projects/Sunset-botanical-garden/Sunset-botanical-garden/bin/gen/006-B3226-00/source/Rez.mcgen"; @line = 5; @symbol_usingdef<0> = [Toybox,5,6,12]; @symbol_usingdef<1> = [Graphics,5,13,21]; @symbol_usingAlias = [Gfx,5,25,28]; ]
+using Toybox.Graphics as :Gfx;
+[ @file = "/Users/camilledesoubrie/Documents/projects/Sunset-botanical-garden/Sunset-botanical-garden/bin/gen/006-B3226-00/source/Rez.mcgen"; @line = 7; @symbol_moduledef = [Rez,7,7,10]; ]
+module Rez {
+    [ @file = "/Users/camilledesoubrie/Documents/projects/Sunset-botanical-garden/Sunset-botanical-garden/bin/gen/006-B3226-00/source/Rez.mcgen"; @line = 7; ]
+    <init> {
+    }
+    [ @file = "/Users/camilledesoubrie/Documents/projects/Sunset-botanical-garden/Sunset-botanical-garden/bin/gen/006-B3226-00/source/Rez.mcgen"; @line = 8; @symbol_moduledef = [Drawables,8,11,20]; ]
+    module Drawables {
+        [ @file = "/Users/camilledesoubrie/Documents/projects/Sunset-botanical-garden/Sunset-botanical-garden/bin/gen/006-B3226-00/source/Rez.mcgen"; @line = 8; ]
+        <init> {
+        }
+        [ @file = "/Users/camilledesoubrie/Documents/projects/Sunset-botanical-garden/Sunset-botanical-garden/bin/gen/006-B3226-00/source/Rez.mcgen"; @line = 9; @position = 27; initialized = true; @symbol_vardef = [watchface_background,9,27,47]; @symbol_type<0> = [ResourceId,9,51,61]; ]
+        var watchface_background as ResourceId;
+        [ @file = "/Users/camilledesoubrie/Documents/projects/Sunset-botanical-garden/Sunset-botanical-garden/bin/gen/006-B3226-00/source/Rez.mcgen"; @line = 10; @position = 27; initialized = true; @symbol_vardef = [LauncherIcon,10,27,39]; @symbol_type<0> = [ResourceId,10,43,53]; ]
+        var LauncherIcon as ResourceId;
+    }
+    [ @file = "/Users/camilledesoubrie/Documents/projects/Sunset-botanical-garden/Sunset-botanical-garden/bin/gen/006-B3226-00/source/Rez.mcgen"; @line = 13; @symbol_moduledef = [Layouts,13,11,18]; ]
+    module Layouts {
+        [ @file = "/Users/camilledesoubrie/Documents/projects/Sunset-botanical-garden/Sunset-botanical-garden/bin/gen/006-B3226-00/source/Rez.mcgen"; @line = 13; ]
+        <init> {
+        }
+        [ @file = "/Users/camilledesoubrie/Documents/projects/Sunset-botanical-garden/Sunset-botanical-garden/bin/gen/006-B3226-00/source/Rez.mcgen"; @line = 14; @symbol_functiondef = [WatchFace,14,17,26]; @symbol_param<0> = [dc,14,27,29]; @symbol_param<0>_type<0> = [Graphics,14,33,41]; @symbol_param<0>_type<1> = [Dc,14,42,44]; @symbol_return<0> = [Array,14,49,54]; @symbol_return<1> = [WatchUi,14,55,62]; @symbol_return<2> = [Drawable,14,63,71]; ]
+        function WatchFace(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
+_Users_camilledesoubrie_Documents_projects_Sunset_botanical_garden_Sunset_botanical_garden_bin_gen_006_B3226_00_source_Rez_mcgen_14_73_18_8_start:
+[ "/Users/camilledesoubrie/Documents/projects/Sunset-botanical-garden/Sunset-botanical-garden/bin/gen/006-B3226-00/source/Rez.mcgen" 15 12 ]
+            [ "_Users_camilledesoubrie_Documents_projects_Sunset_botanical_garden_Sunset_botanical_garden_bin_gen_006_B3226_00_source_Rez_mcgen_14_73_18_8_start" "_Users_camilledesoubrie_Documents_projects_Sunset_botanical_garden_Sunset_botanical_garden_bin_gen_006_B3226_00_source_Rez_mcgen_14_73_18_8_stop" ]
+            %rez_cmp_local_text_TimeLabel.1 = local;
+            symbol [ rez_cmp_local_text_TimeLabel %rez_cmp_local_text_TimeLabel.1 15 16 44 ];
+            symbol [ WatchUi %tmp.3 15 51 58 ];
+            %tmp.3 = getm $.Toybox.WatchUi;
+            symbol [ Text %tmp.4 15 59 63 ];
+            %tmp.4 = getv function ? %tmp.3 :Text;
+            %tmp.5 = newd 6;
+            %tmp.7 = const :identifier;
+            symbol [ identifier %tmp.7 15 66 76 const ];
+            %tmp.8 = "TimeLabel";
+            %tmp.9 = dup %tmp.5;
+            %tmp.10 = aputv %tmp.9 %tmp.7 %tmp.8;
+            %tmp.12 = const :color;
+            symbol [ color %tmp.12 15 92 97 const ];
+            symbol [ Graphics %tmp.13 15 99 107 ];
+            %tmp.13 = getm $.Toybox.Graphics;
+            symbol [ COLOR_BLUE %tmp.14 15 108 118 ];
+            %tmp.14 = getv %tmp.13 :COLOR_BLUE;
+            %tmp.15 = dup %tmp.10;
+            %tmp.16 = aputv %tmp.15 %tmp.12 %tmp.14;
+            %tmp.18 = const :locX;
+            symbol [ locX %tmp.18 15 121 125 const ];
+            %tmp.19 = lgetv %dc;
+            symbol [ dc %tmp.19 15 128 130 ];
+            symbol [ getWidth %tmp.20 15 131 139 ];
+            %tmp.20 = getv function %tmp.19 :getWidth;
+            %tmp.21 = invoke %tmp.19 %tmp.20();
+            %tmp.22 = 0.5;
+            %tmp.23 = mul %tmp.21 %tmp.22;
+            %tmp.24 = dup %tmp.16;
+            %tmp.25 = aputv %tmp.24 %tmp.18 %tmp.23;
+            %tmp.27 = const :locY;
+            symbol [ locY %tmp.27 15 151 155 const ];
+            %tmp.28 = lgetv %dc;
+            symbol [ dc %tmp.28 15 159 161 ];
+            symbol [ getHeight %tmp.29 15 162 171 ];
+            %tmp.29 = getv function %tmp.28 :getHeight;
+            %tmp.30 = invoke %tmp.28 %tmp.29();
+            %tmp.31 = lgetv %dc;
+            symbol [ dc %tmp.31 15 176 178 ];
+            symbol [ getFontHeight %tmp.32 15 179 192 ];
+            %tmp.32 = getv function %tmp.31 :getFontHeight;
+            symbol [ Graphics %tmp.33 15 193 201 ];
+            %tmp.33 = getm $.Toybox.Graphics;
+            symbol [ FONT_LARGE %tmp.34 15 202 212 ];
+            %tmp.34 = getv %tmp.33 :FONT_LARGE;
+            %tmp.35 = invoke %tmp.31 %tmp.32(%tmp.34);
+            %tmp.36 = sub %tmp.30 %tmp.35;
+            %tmp.37 = 0.5;
+            %tmp.38 = mul %tmp.36 %tmp.37;
+            %tmp.39 = dup %tmp.25;
+            %tmp.40 = aputv %tmp.39 %tmp.27 %tmp.38;
+            %tmp.42 = const :justification;
+            symbol [ justification %tmp.42 15 224 237 const ];
+            symbol [ Graphics %tmp.43 15 239 247 ];
+            %tmp.43 = getm $.Toybox.Graphics;
+            symbol [ TEXT_JUSTIFY_CENTER %tmp.44 15 248 267 ];
+            %tmp.44 = getv %tmp.43 :TEXT_JUSTIFY_CENTER;
+            %tmp.45 = dup %tmp.40;
+            %tmp.46 = aputv %tmp.45 %tmp.42 %tmp.44;
+            %tmp.48 = const :font;
+            symbol [ font %tmp.48 15 270 274 const ];
+            symbol [ Graphics %tmp.49 15 276 284 ];
+            %tmp.49 = getm $.Toybox.Graphics;
+            symbol [ FONT_LARGE %tmp.50 15 285 295 ];
+            %tmp.50 = getv %tmp.49 :FONT_LARGE;
+            %tmp.51 = dup %tmp.46;
+            %tmp.52 = aputv %tmp.51 %tmp.48 %tmp.50;
+            %tmp.1 = newc %tmp.4 (%tmp.52);
+            lputv %rez_cmp_local_text_TimeLabel.1 %tmp.1;
+            symbol [ rez_cmp_local_text_TimeLabel %rez_cmp_local_text_TimeLabel.1 15 16 44 ];
+[ "/Users/camilledesoubrie/Documents/projects/Sunset-botanical-garden/Sunset-botanical-garden/bin/gen/006-B3226-00/source/Rez.mcgen" 17 12 ]
+            %tmp.53 = newa 1 Array<WatchUi.Drawable>;
+            symbol [ Array %tmp.53 17 53 58 ];
+            symbol [ WatchUi %tmp.53 17 59 66 ];
+            symbol [ Drawable %tmp.53 17 67 75 ];
+            %tmp.54 = lgetv %rez_cmp_local_text_TimeLabel.1;
+            symbol [ rez_cmp_local_text_TimeLabel %tmp.54 17 20 48 ];
+            %tmp.55 = dup %tmp.53;
+            %tmp.56 = aputv %tmp.55 0 %tmp.54;
+            ret %tmp.56;
+_Users_camilledesoubrie_Documents_projects_Sunset_botanical_garden_Sunset_botanical_garden_bin_gen_006_B3226_00_source_Rez_mcgen_14_73_18_8_stop:
+        }
+    }
+    [ @file = "/Users/camilledesoubrie/Documents/projects/Sunset-botanical-garden/Sunset-botanical-garden/bin/gen/006-B3226-00/source/Rez.mcgen"; @line = 21; @symbol_moduledef = [Strings,21,11,18]; ]
+    module Strings {
+        [ @file = "/Users/camilledesoubrie/Documents/projects/Sunset-botanical-garden/Sunset-botanical-garden/bin/gen/006-B3226-00/source/Rez.mcgen"; @line = 21; ]
+        <init> {
+        }
+        [ @file = "/Users/camilledesoubrie/Documents/projects/Sunset-botanical-garden/Sunset-botanical-garden/bin/gen/006-B3226-00/source/Rez.mcgen"; @line = 22; @position = 27; initialized = true; @symbol_vardef = [AppName,22,27,34]; @symbol_type<0> = [ResourceId,22,38,48]; ]
+        var AppName as ResourceId;
+    }
+}
+[ @file = "/Users/camilledesoubrie/Documents/projects/Sunset-botanical-garden/Sunset-botanical-garden/bin/gen/006-B3226-00/source/Rez.mcgen"; @line = 1; ]
+<init> {
+}

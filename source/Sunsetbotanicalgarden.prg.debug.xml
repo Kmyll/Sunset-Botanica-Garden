@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+    <manifest filename="/Users/camilledesoubrie/Documents/projects/Sunset-botanical-garden/Sunset-botanical-garden/manifest.xml"/>
+    <pcToLineNum>
+        <entry filename="/Users/camilledesoubrie/Documents/projects/Sunset-botanical-garden/Sunset-botanical-garden/source/Sunset-botanical-gardenApp.mc" id="1" lineNum="26" parent="globals" pc="268435457" symbol="getApp"/>
+        <entry filename="/Users/camilledesoubrie/Documents/projects/Sunset-botanical-garden/Sunset-botanical-garden/source/Sunset-botanical-gardenApp.mc" id="1" lineNum="27" parent="globals" pc="268435467" symbol="getApp"/>
+        <entry filename="/Users/camilledesoubrie/Documents/projects/Sunset-botanical-garden/Sunset-botanical-garden/source/Sunset-botanical-gardenView.mc" id="2" lineNum="9" parent="globals/Sunset_botanical_gardenView" pc="268435483" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/camilledesoubrie/Documents/projects/Sunset-botanical-garden/Sunset-botanical-garden/source/gen/006-B3226-00/source/Rez.mcgen" id="3" lineNum="7" parent="globals/Rez" pc="268435502" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/camilledesoubrie/Documents/projects/Sunset-botanical-garden/Sunset-botanical-garden/source/Sunset-botanical-gardenApp.mc" id="4" lineNum="5" parent="globals/Sunset_botanical_gardenApp" pc="268435526" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/camilledesoubrie/Documents/projects/Sunset-botanical-garden/Sunset-botanical-garden/source/Sunset-botanical-gardenView.mc" id="7" lineNum="77" parent="globals/Sunset_botanical_gardenView" pc="268435545" symbol="&lt;globals/Sunset_botanical_gardenView/&lt;&gt;drawSteps&gt;"/>
+        <entry filename="/Users/camilledesoubrie/Documents/projects/Sunset-botanical-garden/Sunset-botanical-garden/source/Sunset-botanical-gardenView.mc" id="7" lineNum="78" parent="globals/Sunset_botanical_gardenView" pc="268435549" symbol="&lt;globals/Sunset_botanical_gardenView/&lt;&gt;drawSteps&gt;"/>
+        <entry filename="/Users/camilledesoubrie/Documents/projects/Sunset-botanical-garden/Sunset-botanical-garden/source/Sunset-botanical-gardenView.mc" id="7" lineNum="79" parent="globals/Sunset_botanical_gardenView" pc="268435566" symbol="&lt;globals/Sunset_botanical_gardenView/&lt;&gt;drawSteps&gt;"/>
+        <entry filename="/Users/camilledesoubrie/Documents/projects/Sunset-botanical-garden/Sunset-botanical-garden/source/Sunset-botanical-gardenView.mc" id="7" lineNum="81" parent="globals/Sunset_botanical_gardenView" pc="268435573" symbol="&lt;globals/Sunset_botanical_gardenView/&lt;&gt;drawSteps&gt;"/>
+        <entry filename="/Users/camilledesoubrie/Documents/projects/Sunset-botanical-garden/Sunset-botanical-garden/source/Sunset-botanical-gardenView.mc" id="7" lineNum="82" parent="globals/Sunset_botanical_gardenView" pc="268435586" symbol="&lt;globals/Sunset_botanical_gardenView/&lt;&gt;drawSteps&gt;"/>
+        <entry filename="/Users/camilledesoubrie/Documents/projects/Sunset-botanical-garden/Sunset-botanical-garden/source/Sunset-botanical-gardenView.mc" id="7" lineNum="85" parent="globals/Sunset_botanical_gardenView" pc="268435610" symbol="&lt;globals/Sunset_botanical_gardenView/&lt;&gt;drawSteps&gt;"/>
+        <entry filename="/Users/camilledesoubrie/Documents/projects/Sunset-botanical-garden/Sunset-botanical-garden/source/Sunset-botanical-gardenView.mc" id="7" lineNum="87" parent="globals/Sunset_botanical_gardenView" pc="268435632" symbol="&lt;globals/Sunset_botanical_gardenView/&lt;&gt;drawSteps&gt;"/>
+        <entry filename="/Users/camilledesoubrie/Documents/projects/Sunset-botanical-garden/Sunset-botanical-garden/source/Sunset-botanical-gardenView.mc" id="8" lineNum="16" parent="globals/Sunset_botanical_gardenView" pc="268435667" symbol="onLayout"/>
+        <entry filename="/Users/camilledesoubrie/Documents/projects/Sunset-botanical-garden/Sunset-botanical-garden/source/Sunset-botanical-gardenView.mc" id="8" lineNum="17" parent="globals/Sunset_botanical_gardenView" pc="268435669" symbol="onLayout"/>
+        <entry filename="/Users/camilledesoubrie/Documents/projects/Sunset-botanical-garden/Sunset-botanical-garden/source/Sunset-botanical-gardenView.mc" id="9" lineNum="38" parent="globals/Sunset_botanical_gardenView" pc="268435717" symbol="&lt;globals/Sunset_botanical_gardenView/&lt;&gt;drawTime&gt;"/>
+        <entry filename="/Users/camilledesoubrie/Documents/projects/Sunset-botanical-garden/Sunset-botanical-garden/source/Sunset-botanical-gardenView.mc" id="9" lineNum="39" parent="globals/Sunset_botanical_gardenView" pc="268435721" symbol="&lt;globals/Sunset_botanical_gardenView/&lt;&gt;drawTime&gt;"/>
+        <entry filename="/Users/camilledesoubrie/Documents/projects/Sunset-botanical-garden/Sunset-botanical-garden/source/Sunset-botanical-gardenView.mc" id="9" lineNum="41" parent="globals/Sunset_botanical_gardenView" pc="268435738" symbol="&lt;globals/Sunset_botanical_gardenView/&lt;&gt;drawTime&gt;"/>
+        <entry filename="/Users/camilledesoubrie/Documents/projects/Sunset-botanical-garden/Sunset-botanical-garden/source/Sunset-botanical-gardenView.mc" id="9" lineNum="46" parent="globals/Sunset_botanical_gardenView" pc="268435826" symbol="&lt;globals/Sunset_botanical_gardenView/&lt;&gt;drawTime&gt;"/>
+        <entry filename="/Users/camilledesoubrie/Documents/projects/Sunset-botanical-garden/Sunset-botanical-garden/source/Sunset-botanical-gardenView.mc" id="9" lineNum="48" parent="globals/Sunset_botanical_gardenView" pc="268435848" symbol="&lt;globals/Sunset_botanical_gardenView/&lt;&gt;drawTime&gt;"/>
+        <entry filename="/Users/camilledesoubrie/Documents/projects/Sunset-botanical-garden/Sunset-botanical-garden/source/Sunset-botanical-gardenView.mc" id="11" lineNum="12" parent="globals/Sunset_botanical_gardenView" pc="268435895" symbol="initialize"/>
+        <entry filename="/Users/camilledesoubrie/Documents/projects/Sunset-botanical-garden/Sunset-botanical-garden/source/Sunset-botanical-gardenView.mc" id="11" lineNum="13" parent="globals/Sunset_botanical_gardenView" pc="268435897" symbol="initialize"/>
+        <entry filename="/Users/camilledesoubrie/Documents/projects/Sunset-botanical-garden/Sunset-botanical-garden/source/Sunset-botanical-gardenView.mc" id="12" lineNum="96" parent="globals/Sunset_botanical_gardenView" pc="268435916" symbol="&lt;globals/Sunset_botanical_gardenView/&lt;&gt;drawHeartRate&gt;"/>
+        <entry filename="/Users/camilledesoubrie/Documents/projects/Sunset-botanical-garden/Sunset-botanical-garden/source/Sunset-botanical-gardenView.mc" id="12" lineNum="97" parent="globals/Sunset_botanical_gardenView" pc="268435920" symbol="&lt;globals/Sunset_botanical_gardenView/&lt;&gt;drawHeartRate&gt;"/>
+        <entry filename="/Users/camilledesoubrie/Documents/projects/Sunset-botanical-garden/Sunset-botanical-garden/source/Sunset-botanical-gardenView.mc" id="12" lineNum="98" parent="globals/Sunset_botanical_gardenView" pc="268435927" symbol="&lt;globals/Sunset_botanical_gardenView/&lt;&gt;drawHeartRate&gt;"/>
+        <entry filename="/Users/camilledesoubrie/Documents/projects/Sunset-botanical-garden/Sunset-botanical-garden/source/Sunset-botanical-gardenView.mc" id="12" lineNum="99" parent="globals/Sunset_botanical_gardenView" pc="268435951" symbol="&lt;globals/Sunset_botanical_gardenView/&lt;&gt;drawHeartRate&gt;"/>
+        <entry filename="/Users/camilledesoubrie/Documents/projects/Sunset-botanical-garden/Sunset-botanical-garden/source/Sunset-botanical-gardenView.mc" id="12" lineNum="101" parent="globals/Sunset_botanical_gardenView" pc="268435964" symbol="&lt;globals/Sunset_botanical_gardenView/&lt;&gt;drawHeartRate&gt;"/>
+        <entry filename="/Users/camilledesoubrie/Documents/projects/Sunset-botanical-garden/Sunset-botanical-garden/source/Sunset-botanical-gardenView.mc" id="12" lineNum="106" parent="globals/Sunset_botanical_gardenView" pc="268436001" symbol="&lt;globals/Sunset_botanical_gardenView/&lt;&gt;drawHeartRate&gt;"/>
+        <entry filename="/Users/camilledesoubrie/Documents/projects/Sunset-botanical-garden/Sunset-botanical-garden/source/Sunset-botanical-gardenView.mc" id="12" lineNum="109" parent="globals/Sunset_botanical_gardenView" pc="268436025" symbol="&lt;globals/Sunset_botanical_gardenView/&lt;&gt;drawHeartRate&gt;"/>
+        <entry filename="/Users/camilledesoubrie/Documents/projects/Sunset-botanical-garden/Sunset-botanical-garden/source/Sunset-botanical-gardenView.mc" id="12" lineNum="111" parent="globals/Sunset_botanical_gardenView" pc="268436047" symbol="&lt;globals/Sunset_botanical_gardenView/&lt;&gt;drawHeartRate&gt;"/>
+        <entry filename="/Users/camilledesoubrie/Documents/projects/Sunset-botanical-garden/Sunset-botanical-garden/source/Sunset-botanical-gardenView.mc" id="14" lineNum="24" parent="globals/Sunset_botanical_gardenView" pc="268436082" symbol="onUpdate"/>
+        <entry filename="/Users/camilledesoubrie/Documents/projects/Sunset-botanical-garden/Sunset-botanical-garden/source/Sunset-botanical-gardenView.mc" id="14" lineNum="25" parent="globals/Sunset_botanical_gardenView" pc="268436084" symbol="onUpdate"/>
+        <entry filename="/Users/camilledesoubrie/Documents/projects/Sunset-botanical-garden/Sunset-botanical-garden/source/Sunset-botanical-gardenView.mc" id="14" lineNum="26" parent="globals/Sunset_botanical_gardenView" pc="268436106" symbol="onUpdate"/>
+        <entry filename="/Users/camilledesoubrie/Documents/projects/Sunset-botanical-garden/Sunset-botanical-garden/source/Sunset-botanical-gardenView.mc" id="14" lineNum="28" parent="globals/Sunset_botanical_gardenView" pc="268436118" symbol="onUpdate"/>
+        <entry filename="/Users/camilledesoubrie/Documents/projects/Sunset-botanical-garden/Sunset-botanical-garden/source/Sunset-botanical-gardenView.mc" id="14" lineNum="29" parent="globals/Sunset_botanical_gardenView" pc="268436131" symbol="onUpdate"/>
+        <entry filename="/Users/camilledesoubrie/Documents/projects/Sunset-botanical-garden/Sunset-botanical-garden/source/Sunset-botanical-gardenView.mc" id="14" lineNum="32" parent="globals/Sunset_botanical_gardenView" pc="268436161" symbol="onUpdate"/>
+        <entry filename="/Users/camilledesoubrie/Documents/projects/Sunset-botanical-garden/Sunset-botanical-garden/source/Sunset-botanical-gardenView.mc" id="14" lineNum="33" parent="globals/Sunset_botanical_gardenView" pc="268436175" symbol="onUpdate"/>
+        <entry filename="/Users/camilledesoubrie/Documents/projects/Sunset-botanical-garden/Sunset-botanical-garden/source/Sunset-botanical-gardenView.mc" id="14" lineNum="34" parent="globals/Sunset_botanical_gardenView" pc="268436189" symbol="onUpdate"/>
+        <entry filename="/Users/camilledesoubrie/Documents/projects/Sunset-botanical-garden/Sunset-botanical-garden/source/Sunset-botanical-gardenView.mc" id="14" lineNum="35" parent="globals/Sunset_botanical_gardenView" pc="268436203" symbol="onUpdate"/>
+        <entry filename="/Users/camilledesoubrie/Documents/projects/Sunset-botanical-garden/Sunset-botanical-garden/source/Sunset-botanical-gardenView.mc" id="15" lineNum="57" parent="globals/Sunset_botanical_gardenView" pc="268436218" symbol="&lt;globals/Sunset_botanical_gardenView/&lt;&gt;drawDate&gt;"/>
+        <entry filename="/Users/camilledesoubrie/Documents/projects/Sunset-botanical-garden/Sunset-botanical-garden/source/Sunset-botanical-gardenView.mc" id="15" lineNum="58" parent="globals/Sunset_botanical_gardenView" pc="268436222" symbol="&lt;globals/Sunset_botanical_gardenView/&lt;&gt;drawDate&gt;"/>
+        <entry filename="/Users/camilledesoubrie/Documents/projects/Sunset-botanical-garden/Sunset-botanical-garden/source/Sunset-botanical-gardenView.mc" id="15" lineNum="60" parent="globals/Sunset_botanical_gardenView" pc="268436259" symbol="&lt;globals/Sunset_botanical_gardenView/&lt;&gt;drawDate&gt;"/>
+        <entry filename="/Users/camilledesoubrie/Documents/projects/Sunset-botanical-garden/Sunset-botanical-garden/source/Sunset-botanical-gardenView.mc" id="15" lineNum="66" parent="globals/Sunset_botanical_gardenView" pc="268436335" symbol="&lt;globals/Sunset_botanical_gardenView/&lt;&gt;drawDate&gt;"/>
+        <entry filename="/Users/camilledesoubrie/Documents/projects/Sunset-botanical-garden/Sunset-botanical-garden/source/Sunset-botanical-gardenView.mc" id="15" lineNum="68" parent="globals/Sunset_botanical_gardenView" pc="268436357" symbol="&lt;globals/Sunset_botanical_gardenView/&lt;&gt;drawDate&gt;"/>
+        <entry filename="/Users/camilledesoubrie/Documents/projects/Sunset-botanical-garden/Sunset-botanical-garden/source/Sunset-botanical-gardenApp.mc" id="17" lineNum="20" parent="globals/Sunset_botanical_gardenApp" pc="268436404" symbol="getInitialView"/>
+        <entry filename="/Users/camilledesoubrie/Documents/projects/Sunset-botanical-garden/Sunset-botanical-garden/source/Sunset-botanical-gardenApp.mc" id="17" lineNum="21" parent="globals/Sunset_botanical_gardenApp" pc="268436406" symbol="getInitialView"/>
+        <entry filename="/Users/camilledesoubrie/Documents/projects/Sunset-botanical-garden/Sunset-botanical-garden/source/Sunset-botanical-gardenApp.mc" id="18" lineNum="7" parent="globals/Sunset_botanical_gardenApp" pc="268436443" symbol="initialize"/>
+        <entry filename="/Users/camilledesoubrie/Documents/projects/Sunset-botanical-garden/Sunset-botanical-garden/source/Sunset-botanical-gardenApp.mc" id="18" lineNum="8" parent="globals/Sunset_botanical_gardenApp" pc="268436445" symbol="initialize"/>
+        <entry filename="/Users/camilledesoubrie/Documents/projects/Sunset-botanical-garden/Sunset-botanical-garden/source/gen/006-B3226-00/source/Rez.mcgen" id="20" lineNum="14" parent="globals/Rez/Layouts" pc="268436464" symbol="WatchFace"/>
+        <entry filename="/Users/camilledesoubrie/Documents/projects/Sunset-botanical-garden/Sunset-botanical-garden/source/gen/006-B3226-00/source/Rez.mcgen" id="20" lineNum="15" parent="globals/Rez/Layouts" pc="268436476" symbol="WatchFace"/>
+        <entry filename="/Users/camilledesoubrie/Documents/projects/Sunset-botanical-garden/Sunset-botanical-garden/source/gen/006-B3226-00/source/Rez.mcgen" id="20" lineNum="17" parent="globals/Rez/Layouts" pc="268436629" symbol="WatchFace"/>
+    </pcToLineNum>
+    <symbolTable>
+        <entry id="8388639" module="true" symbol="Graphics"/>
+        <entry field="true" id="15" symbol="watchface_background"/>
+        <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
+        <entry id="6" object="true" symbol="Sunset_botanical_gardenApp"/>
+        <entry id="8388924" module="true" symbol="Gregorian"/>
+        <entry field="true" id="8388611" module="true" symbol="Toybox"/>
+        <entry field="true" id="16" symbol="AppName"/>
+        <entry id="8388633" module="true" symbol="ActivityMonitor"/>
+        <entry id="5" module="true" symbol="globals/Rez/Strings"/>
+        <entry id="12" method="true" symbol="&lt;globals/Sunset_botanical_gardenView/&lt;&gt;drawTime&gt;"/>
+        <entry id="8388648" module="true" symbol="WatchUi"/>
+        <entry id="2" module="true" symbol="globals/Rez"/>
+        <entry id="8389124" method="true" symbol="onUpdate"/>
+        <entry id="8389375" method="true" object="true" symbol="WatchFace"/>
+        <entry field="true" id="8389065" symbol="locY"/>
+        <entry field="true" id="8389064" symbol="locX"/>
+        <entry id="9" method="true" symbol="&lt;globals/Sunset_botanical_gardenView/&lt;&gt;drawDate&gt;"/>
+        <entry id="8388771" module="true" object="true" symbol="Drawables"/>
+        <entry id="8389348" symbol="font"/>
+        <entry id="8389275" method="true" symbol="getApp"/>
+        <entry id="4" module="true" symbol="globals/Rez/Layouts"/>
+        <entry id="8389122" method="true" symbol="onLayout"/>
+        <entry id="8389376" method="true" symbol="onEnterSleep"/>
+        <entry field="true" id="8389063" symbol="identifier"/>
+        <entry id="8389349" symbol="justification"/>
+        <entry id="3" module="true" symbol="globals/Rez/Drawables"/>
+        <entry id="8389377" method="true" symbol="onExitSleep"/>
+        <entry id="8388644" module="true" symbol="System"/>
+        <entry id="8388645" module="true" symbol="Time"/>
+        <entry id="8388769" module="true" object="true" symbol="Rez"/>
+        <entry field="true" id="8" symbol="&lt;globals/Sunset_botanical_gardenView/&lt;&gt;_background&gt;"/>
+        <entry id="10" method="true" symbol="&lt;globals/Sunset_botanical_gardenView/&lt;&gt;drawHeartRate&gt;"/>
+        <entry id="8388640" module="true" symbol="Lang"/>
+        <entry field="true" id="14" symbol="LauncherIcon"/>
+        <entry id="8388610" symbol="statics"/>
+        <entry id="8389123" method="true" symbol="onShow"/>
+        <entry id="7" object="true" symbol="Sunset_botanical_gardenView"/>
+        <entry id="8389350" module="true" symbol="globals"/>
+        <entry id="8388770" module="true" object="true" symbol="Strings"/>
+        <entry id="8388702" method="true" symbol="initialize"/>
+        <entry id="8389279" method="true" symbol="onStart"/>
+        <entry id="8389280" method="true" symbol="getInitialView"/>
+        <entry id="8389281" method="true" symbol="onStop"/>
+        <entry field="true" id="8389347" symbol="color"/>
+        <entry id="11" method="true" symbol="&lt;globals/Sunset_botanical_gardenView/&lt;&gt;drawSteps&gt;"/>
+        <entry id="13" module="true" symbol="Layouts"/>
+        <entry id="8389125" method="true" symbol="onHide"/>
+        <entry id="8388635" module="true" symbol="Application"/>
+    </symbolTable>
+    <localVars>
+        <entry arg="true" endPc="268435666" name="dc" stackId="1" startPc="268435545"/>
+        <entry endPc="268435665" name="info" stackId="2" startPc="268435549"/>
+        <entry endPc="268435665" name="stepsText" stackId="3" startPc="268435549"/>
+        <entry arg="true" endPc="268435716" name="dc" stackId="1" startPc="268435667"/>
+        <entry arg="true" endPc="268435894" name="dc" stackId="1" startPc="268435717"/>
+        <entry endPc="268435893" name="clock" stackId="2" startPc="268435721"/>
+        <entry endPc="268435893" name="timeText" stackId="3" startPc="268435721"/>
+        <entry arg="true" endPc="268436081" name="dc" stackId="1" startPc="268435916"/>
+        <entry endPc="268436080" name="heartRateText" stackId="2" startPc="268435920"/>
+        <entry endPc="268436080" name="iterator" stackId="3" startPc="268435920"/>
+        <entry endPc="268436080" name="sample" stackId="4" startPc="268435920"/>
+        <entry arg="true" endPc="268436217" name="dc" stackId="1" startPc="268436082"/>
+        <entry arg="true" endPc="268436403" name="dc" stackId="1" startPc="268436218"/>
+        <entry endPc="268436402" name="today" stackId="2" startPc="268436222"/>
+        <entry endPc="268436402" name="dateText" stackId="3" startPc="268436222"/>
+        <entry arg="true" endPc="268436645" name="dc" stackId="1" startPc="268436464"/>
+    </localVars>
+    <deviceInfo deviceVersion="45fe3cbb0de8ea0a70e12628d2697915f1272301" partNumber="006-B3226-00"/>
+    <annotations>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="watchface_background"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
+    </annotations>
+    <dataEntryOffsetMappings>
+        <dataEntry label="globals" offset="63" parentId="" symbolId="globals" type="module"/>
+        <dataEntry label="globals/Sunset_botanical_gardenView" offset="134" parentId="globals" symbolId="Sunset_botanical_gardenView" type="class"/>
+        <dataEntry label="globals/Rez" offset="269" parentId="globals" symbolId="Rez" type="module"/>
+        <dataEntry label="globals/Sunset_botanical_gardenApp" offset="324" parentId="globals" symbolId="Sunset_botanical_gardenApp" type="class"/>
+        <dataEntry label="globals/Rez/Drawables" offset="395" parentId="Rez" symbolId="Drawables" type="module"/>
+        <dataEntry label="globals/Rez/Layouts" offset="442" parentId="Rez" symbolId="Layouts" type="module"/>
+        <dataEntry label="globals/Rez/Strings" offset="481" parentId="Rez" symbolId="Strings" type="module"/>
+    </dataEntryOffsetMappings>
+    <functions>
+        <functionEntry accessMode="public" endPc="268435482" name="getApp" startPc="268435457">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435501" name="&lt;init&gt;" parent="Sunset_botanical_gardenView" startPc="268435483">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435525" name="&lt;init&gt;" parent="Rez" startPc="268435502">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435544" name="&lt;init&gt;" parent="Sunset_botanical_gardenApp" startPc="268435526">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onExitSleep" parent="Sunset_botanical_gardenView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onShow" parent="Sunset_botanical_gardenView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268435666" name="&lt;globals/Sunset_botanical_gardenView/&lt;&gt;drawSteps&gt;" parent="Sunset_botanical_gardenView" startPc="268435545">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435716" name="onLayout" parent="Sunset_botanical_gardenView" startPc="268435667">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268435894" name="&lt;globals/Sunset_botanical_gardenView/&lt;&gt;drawTime&gt;" parent="Sunset_botanical_gardenView" startPc="268435717">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onEnterSleep" parent="Sunset_botanical_gardenView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435915" name="initialize" parent="Sunset_botanical_gardenView" startPc="268435895">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268436081" name="&lt;globals/Sunset_botanical_gardenView/&lt;&gt;drawHeartRate&gt;" parent="Sunset_botanical_gardenView" startPc="268435916">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onHide" parent="Sunset_botanical_gardenView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436217" name="onUpdate" parent="Sunset_botanical_gardenView" startPc="268436082">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268436403" name="&lt;globals/Sunset_botanical_gardenView/&lt;&gt;drawDate&gt;" parent="Sunset_botanical_gardenView" startPc="268436218">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Drawables">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Layouts">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Strings">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onStart" parent="Sunset_botanical_gardenApp">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436442" name="getInitialView" parent="Sunset_botanical_gardenApp" startPc="268436404">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436463" name="initialize" parent="Sunset_botanical_gardenApp" startPc="268436443">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onStop" parent="Sunset_botanical_gardenApp">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436645" name="WatchFace" parent="Layouts" startPc="268436464">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+    </functions>
+</debugInfo>
